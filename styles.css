@@ -131,10 +131,42 @@ padding: 150px;
 .project-card {
     width: 300px;
     height: 500px;
-    box-shadow: 5px 5px 5px;
+    box-shadow: 5px 5px 20px;
+    margin: 10px;
 }
 
 .project-container {
     display: flex;
     justify-content: space-around;
+}
+
+.subtext {
+    font-size: 20px;
+}
+
+@media only screen and (max-width: 1000px) {
+    .project-container {
+        display: flex;
+        flex-wrap: wrap;
+    }
+}
+
+.project-image {
+    margin-top: 25px;
+    width: 250px;
+    border-radius: 125px;
+    height: 250px;
+}
+
+hr {
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+.project-link {
+    text-decoration: none;
+}
+
+a {
+    text-decoration: none;
 }
